@@ -33,7 +33,7 @@ tfmodisco-lite is a lightweight version of the original [TF-MoDISco](https://git
 
 #### Running tfmodisco-lite
 
-> ** Note**
+> **Note**
 > To match the original implementation of TF-MoDISco, the default window size is 400. This means that when you pass in examples only the middle 400 are used in the procedure. It was originally implemented this way to speed up the procedure. If your window sizes are larger, or you otherwise want to consider alternate window sizes, make sure to explicitly set it with `-w`.
 
 `modisco motifs -s ohe.npz -a shap.npz -n 2000 -o modisco_results.h5`
